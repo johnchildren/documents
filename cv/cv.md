@@ -13,17 +13,25 @@ date: 25/03/18
 
 ### Personal summary
 
-> My research interests are ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+> Interested in parsers and type systems. NixOS user. Seeking employment in a new a dynamic role, preferably using a functional language with strong static types.
 
 ### Employment 
 
 - 2016: Software Engineer, InfoSum
 
-> In this role I...Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+> In this role I wrote an maintained several C database extensions, wrote several iterations of generated parsers and helped write numerous Go services.
+> I was also instrumental in the adoption of Nix for building and packaging several critical components to the platform.
+> I was one of the first hires for the company and saw it progress from some of the first lines of code to a full production system.
+> I created and wrote the backend for databake.io, a platform for generating datasets with dependent data as well authoring it's public documentation
+> Experimented with writing tools and services in Haskell as well as prototyping new components with the language.
 
 - 2015: Web Developer, Quantiki
 
-> In this role I...Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+> In this role I was tasked with Implementing a full stack solution to replace a complex legacy system without data loss or service interruption.
+> Implemented a wrapper Drupal module for pandoc that allowed MediaWiki format content to be displayed as html.
+> Regularly met with project leaders to consult with upon and explain my decisions.
+> Wrote a complex database migration solution from a custom schema.
+> Deployed solution to production and wrote documentation to enable future maintainence.
 
 ### Education 
 
@@ -32,8 +40,9 @@ date: 25/03/18
 
 ### Technical
 
-- Intermediate: HTML, Python, etc, etc
-- Basic: CSS, Stata, etc, etc
+- Preferred: Haskell, Nix
+- Proficient: C, Golang, Python
+- Basic: Rust, Elm
 
 \newpage
 
