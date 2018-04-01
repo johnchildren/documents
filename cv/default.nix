@@ -9,12 +9,5 @@ stdenv.mkDerivation {
     pandoc
   ];
 
-  buildPhase = ''
-    pandoc -s -o cv.pdf cv.md
-  '';
-
-  installPhase = ''
-    mkdir -p $out
-    cp cv.pdf $out
-  '';
+  makeFlags = [ "PREFIX=$(out)" ];
 }
