@@ -12,6 +12,7 @@ date: 25/03/18
 
 ### Personal summary
 
+Keen learner with a few years experience and a strong academic background looking for a functional programming job where he can grow.
 
 ### Employment
 
@@ -60,12 +61,22 @@ date: 25/03/18
 - DSLs, ASTs and Interpreters
 - Relation Databases and SQL
 - Query planning and execution
+- Services and APIs
 
+#### Languages
+
+- Nix
+- C
+- Python
+- Haskell
+- Golang
 
 #### Tools
 
 - NixOS and Nixpkgs
 - PostgreSQL
+- Git and GitLab
+- ANTLR4 and yacc
 
 ### Misc
 
@@ -73,10 +84,12 @@ date: 25/03/18
 
 - Regularly attends several London based meetups inc. London Haskell, London NixOS User Group.
 - Attends community events such as FOSDEM and ZuriHac.
+- Has given talks at Basingstoke Tech meetup.
 
 #### Hobbies
 
 - Bouldering
 - Swimming
+- JRPGs
 
 Available on request.
