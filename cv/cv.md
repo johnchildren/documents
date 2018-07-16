@@ -12,65 +12,71 @@ date: 25/03/18
 
 ### Personal summary
 
-> Early career software developer with strong academic background.
-
-> Interested in parsers and type systems. NixOS user. Seeking employment in a new a dynamic role, preferably using a functional language with strong static types.
 
 ### Employment
 
-- 2016: Software Engineer, InfoSum
+- 2016-Present: Software Engineer, InfoSum
 
-> In this role I wrote an maintained several C database extensions, wrote several iterations of generated parsers and helped write numerous Go services.
+    > Early employee focused primarily on the back end systems of the InfoSum platform.
 
-> I was also instrumental in the adoption of Nix for building and packaging several critical components to the platform.
+    > Designed and wrote the back end for the DataBake web application.
 
-> I was one of the first hires for the company and saw it progress from some of the first lines of code to a full production system.
+    > Picked technologies to resolve specific technical challenges required by the business.
 
-> I created and wrote the backend for databake.io, a platform for generating datasets with dependent data as well authoring it's public documentation
+    > Wrote critical components of several Microservices in the platform.
 
-> Experimented with writing tools and services in Haskell as well as prototyping new components with the language.
+    > Wrote Postgresql extensions in C required by the platform.
 
-- 2015: Web Developer, Quantiki
+    > Researched topics related to databases and privacy and presented findings.
 
-> In this role I was tasked with Implementing a full stack solution to replace a complex legacy system without data loss or service interruption.
+- 2015-2016: Web Developer, Quantiki
 
-> Implemented a wrapper Drupal module for pandoc that allowed MediaWiki format content to be displayed as html.
+    > Implemented full stack solution to replace legacy website
 
-> Regularly met with project leaders to consult with upon and explain my decisions.
+    > Wrote migrations and mappings from custom schema to Drupal.
 
-> Wrote a complex database migration solution from a custom schema.
+    > Implemented extension Pandoc extension for Drupal to enable use of multiple markup languages in content.
 
-> Deployed solution to production and wrote documentation to enable future maintainence.
+    > Wrote documentation to enable continuing maintenance.
 
 ### Education
 
 - M.Sc.    Quantum Technologies (Merit), University of Leeds, Leeds UK
+
+    > Studied Quantum Information Theory, Quantum Optics, Advanced Quantum Computing.
+
+    > Produced dissertation on simulation of Error Correction in One Way Quantum Computing.
+
 - M.Phys.  Physics with Philosophy (2:1), University of York, York UK
+
+    > Studied Electromagnetic Theory, Quantum Computing and High Performance Computing
+
+    > Produced dissertation on simulation of de-coherence in silicon based Qubits
 
 ### Technical
 
-#### Languages
-- Preferred: Haskell, Nix
-- Proficient: C, Golang, Python
-- Basic: Rust, Elm
+#### Skills
+
+- DSLs, ASTs and Interpreters
+- Relation Databases and SQL
+- Query planning and execution
+
 
 #### Tools
 
-- Nix (the tools)
-- Docker
-- Postgresql
-- Git
-- Yarn
-- Go
+- NixOS and Nixpkgs
+- PostgreSQL
 
--- kind of interested in LSP based projects (rls, hie, pyls etc)
+### Misc
 
+#### Social
 
-### Selected projects
+- Regularly attends several London based meetups inc. London Haskell, London NixOS User Group.
+- Attends community events such as FOSDEM and ZuriHac.
 
-#### Databake
+#### Hobbies
 
-
-### References
+- Bouldering
+- Swimming
 
 Available on request.
