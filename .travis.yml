@@ -1,1 +1,17 @@
+os:
+  - linux
+
 language: nix
+
+sudo: required
+
+git:
+  depth: 1
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_OAUTH_TOKEN
+  file: "result"
+  skip_cleanup: true
+  on:
+    tags: true
