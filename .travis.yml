@@ -11,7 +11,9 @@ git:
 deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
-  file: "result"
+  file:
+    - "result/docs/cv.pdf"
+    - "result/docs/cv.html"
   skip_cleanup: true
   on:
     tags: true
