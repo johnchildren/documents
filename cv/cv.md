@@ -3,13 +3,15 @@ documentclass: res
 title: 'John Children'
 phone: +12 (0)3456 7891011
 email: john.a.children@gmail.com
+github: https://github.com/johnchildren
+linkedin: www.linkedin.com/in/johnchildren
 date: 25/03/18
 ...
 
 
 ### Personal summary
 
-Software Engineer with strong academic background in the natural sciences and strong experience working in a dynamic and energetic environment. Broad range of experience with many programming languages, techniques and paradigms as well as modern tooling and infrastructure. Driven self learner and improver with a focus on software quality.
+Software Engineer with strong academic background in the natural sciences and experience working in a dynamic and energetic environment. Broad range of experience with a wide range of programming languages, techniques and paradigms as well as modern tooling and infrastructure. Driven self learner and improver with a focus on software quality.
 
 ### Employment
 
@@ -21,13 +23,15 @@ Software Engineer with strong academic background in the natural sciences and st
 
     > Selected technologies to resolve specific technical challenges required by the business.
 
-    > Designed and wrote critical components of several Microservices in the platform.
+    > Designed and wrote critical components of several micro-services in the platform using technologies such as Docker and gRPC.
 
-    > Desgined and wrote Postgresql, MySQL and Redis extensions in C required by the platform.
+    > Designed and wrote PostgreSQL, MySQL and Redis extensions in C required by the platform.
 
     > Researched topics related to databases and privacy and presented findings.
     
     > Designed and wrote unit tests and property based tests for range of components.
+    
+    > Administered technical examination for new engineering candidates and gave feedback to management.
     
     > Wrote acceptance test specifications for platform components and automated their validation.
 
@@ -40,6 +44,15 @@ Software Engineer with strong academic background in the natural sciences and st
     > Implemented extension Pandoc extension for Drupal to enable use of multiple markup languages in content.
 
     > Conveyed design and deployment decisions to supervisors and wrote documentation to enable continuing maintenance.
+    
+- Summer 2012: Summer Research Student, University of York
+
+    > Built a database of example results from simulations of solid state materials that were run on University computing cluster for a range of bonding types.
+
+    > Created Perl scripts using the materials studio API to run batches of simulations on the cluster to optimise input parameters of simulations.
+
+    > Designed website to display data from calculations as benchmarks with comparison graphs.
+
 
 ### Education
 
@@ -83,7 +96,7 @@ Software Engineer with strong academic background in the natural sciences and st
 
 #### Professional Development
 
-- Habitual and driven self learner 
+- Habitual and driven self learner
 - Regularly attends several London based meetups inc. London Haskell, London NixOS User Group.
 - Attends community events such as FOSDEM and ZuriHac as well as developer conferences such as PolyConf.
 - Active participant in the Basingstoke Tech meetup, at which I spoken about building Slackbots.
@@ -94,9 +107,3 @@ Software Engineer with strong academic background in the natural sciences and st
 - Type Systems
 - Property based testing
 - Machine Learning
-
-#### Open source
-
-- Nixpkgs contributor
-
-Available on request.
