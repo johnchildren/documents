@@ -4,7 +4,7 @@ DOCS_DIR=$(PREFIX)/docs
 
 build:
 	pandoc -s -o cv.pdf cv.md
-	pandoc -s -o cv.html
+	pandoc -s -o cv.html cv.md
 
 clean:
 	rm cv.pdf
