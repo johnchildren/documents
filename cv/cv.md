@@ -90,6 +90,7 @@ Software Engineer with strong academic background in the natural sciences and ex
 #### Tools
 
 - NixOS and Nixpkgs
+- Make, CMake and Bazel
 - PostgreSQL, MySQL and Redis
 - Git and GitLab
 - Parser generators such as ANTLR4 and Yacc
