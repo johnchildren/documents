@@ -11,62 +11,74 @@ date: 25/03/18
 
 ### Personal summary
 
-Software Engineer with strong academic background in the natural sciences and experience working in a dynamic and energetic environment. Broad range of experience with a wide range of programming languages, techniques and paradigms as well as modern tooling and infrastructure. Driven self learner and improver with a focus on software quality.
+Software Engineer with a strong academic background in the natural sciences. Experience of working in a dynamic and energetic start-up environment. Broad range of experience with a wide range of programming languages, techniques and paradigms; as well as modern tooling and infrastructure. A self motivated learner and improver with a focus and passion for software quality.
 
 ### Employment
 
-- 2016-Present: Software Engineer, [InfoSum](https://www.infosum.com)
+#### Apr 2016-Present: Software Engineer, [InfoSum](https://www.infosum.com)
 
-    > Early employee focused primarily on the back end systems of the InfoSum platform.
+The InfoSum Platform allows users to connect and analyze silo-ed data in difference schemas without moving the data.
 
-    > Designed and wrote the back end for the [DataBake](https://www.databake.io) web application, InfoSum's first product.
+- Early employee focused primarily on the platform back-end systems.
 
-    > Selected technologies to resolve specific technical challenges required by the business.
+- Designed and wrote the back end for the [DataBake](https://www.databake.io) web application, InfoSum's first product.
 
-    > Designed and wrote critical components of several micro-services in the platform using technologies such as Docker and gRPC.
+- Selected key technologies to resolve specific technical challenges required by the business.
 
-    > Designed and wrote PostgreSQL, MySQL and Redis extensions in C required by the platform.
+- Designed and wrote critical components of several micro-services in the platform using technologies such as Docker and gRPC.
 
-    > Researched topics related to databases and privacy and presented findings.
-    
-    > Designed and wrote unit tests and property based tests for range of components.
-    
-    > Administered technical examination for new engineering candidates and gave feedback to management.
-    
-    > Wrote acceptance test specifications for platform components and automated their validation.
+- Designed and wrote PostgreSQL, MySQL and Redis extensions in C required by the platform.
 
-- 2015-2016: Web Developer, [Quantiki](https://www.quantiki.org)
+- Designed and wrote unit tests and property based tests for range of components.
 
-    > Designed and implemented full stack solution to replace legacy website.
+- Undertook technical interview and assessment of potential new hires.
 
-    > Planned and wrote migrations and mappings from custom schema to standardised Drupal.
+- Wrote Cucumber style acceptance test specifications for platform components and automated their validation.
 
-    > Implemented extension Pandoc extension for Drupal to enable use of multiple markup languages in content.
+- Wrote technical user documentation for DataBake application with Sphinx. 
 
-    > Conveyed design and deployment decisions to supervisors and wrote documentation to enable continuing maintenance.
-    
-- Summer 2012: Summer Research Student, University of York
+#### Jan 2015-Jan 2016: Web Developer, [Quantiki](https://www.quantiki.org)
 
-    > Built a database of example results from simulations of solid state materials that were run on University computing cluster for a range of bonding types.
+Quantiki is the world's leading portal for everyone involved in Quantum Information Science.
 
-    > Created Perl scripts using the materials studio API to run batches of simulations on the cluster to optimise input parameters of simulations.
+- Designed and implemented full stack solution to replace legacy website.
 
-    > Designed website to display data from calculations as benchmarks with comparison graphs.
+- Planned and wrote migrations and mappings from custom schema to standardised Drupal.
+
+- Implemented Drupal extension for Pandoc to enable use of multiple markup languages in content.
+
+- Conveyed design and deployment decisions to supervisors and wrote documentation to enable continuing maintenance.
+
+- Coordinated with remote team members while living abroad in Vancouver, BC.
+
+#### Summer 2012: Summer Research Student, University of York
+
+- Built a database of example results from simulations of solid state materials that were run on the University computing cluster for a range of bonding types.
+
+- Created Perl scripts using the Materials Studio API to run batches of simulations on the cluster to optimise input parameters of simulations.
+
+- Designed website to display data from calculations as benchmarks with comparison graphs.
 
 
 ### Education
 
-- M.Sc.    Quantum Technologies (Merit), University of Leeds, Leeds UK
+#### M.Sc.    Quantum Technologies (Merit), University of Leeds, Leeds UK
 
-    > Studied Quantum Information Theory, Quantum Optics, Advanced Quantum Computing.
+- Studied Quantum Information Theory, Quantum Optics, Advanced Quantum Computing.
 
-    > Dissertation on simulation of Error Correction in One Way Quantum Computing.
+- Dissertation on simulation of Error Correction in One Way Quantum Computing.
 
-- M.Phys.  Physics with Philosophy (2:1), University of York, York UK
+#### M.Phys.  Physics with Philosophy (2:1), University of York, York UK
 
-    > Studied Electromagnetic Theory, Quantum Computing and High Performance Computing
+- Studied Electromagnetic Theory, Quantum Computing and High Performance Computing
 
-    > Dissertation on simulation of de-coherence in silicon based Qubits
+- Dissertation on simulation of de-coherence in silicon based Qubits
+
+#### A Levels
+
+- A2 Maths, Further Maths and Physics (AAB)
+
+- AS English Literature and History (AB)
 
 ### Technical
 
@@ -100,7 +112,7 @@ Software Engineer with strong academic background in the natural sciences and ex
 - Habitual and driven self learner
 - Regularly attends several London based meetups inc. London Haskell, London NixOS User Group.
 - Attends community events such as FOSDEM and ZuriHac as well as developer conferences such as PolyConf.
-- Active participant in the Basingstoke Tech meetup, at which I spoken about building Slackbots.
+- Active participant in the Basingstoke Tech meetup, at which I presented about building Slackbots.
 
 #### Interests
 
