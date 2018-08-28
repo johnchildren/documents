@@ -110,7 +110,7 @@ Quantiki is the world's leading portal for everyone involved in Quantum Informat
 #### Professional Development
 
 - Habitual and driven self learner
-- Regularly attends several London based meetups inc. London Haskell, London NixOS User Group.
+- Regularly attends several London based meetups including London Haskell, London NixOS User Group.
 - Attends community events such as FOSDEM and ZuriHac as well as developer conferences such as PolyConf.
 - Active participant in the Basingstoke Tech meetup, at which I presented about building Slackbots.
 
