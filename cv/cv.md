@@ -21,21 +21,19 @@ The InfoSum Platform allows users to connect and analyze silo-ed data in differe
 
 - Early employee focused primarily on the platform back-end systems.
 
-- Designed and wrote the back end for the [DataBake](https://www.databake.io) web application, InfoSum's first product.
+- Designed and wrote the backend and documentation for the [DataBake](https://www.databake.io) web application, InfoSum's first product.
 
 - Selected key technologies to resolve specific technical challenges required by the business.
 
 - Designed and wrote critical components of several micro-services in the platform using technologies such as Docker and gRPC.
 
-- Designed and wrote PostgreSQL, MySQL and Redis extensions in C required by the platform.
+- Designed and wrote PostgreSQL and Redis extensions in C required by the platform.
 
-- Designed and wrote unit tests and property based tests for range of components.
+- Designed and implemented query language for the platform, including planning and execution.
+
+- Read and reviewed technical papers, discussed with colleagues and made recommendations.
 
 - Undertook technical interview and assessment of potential new hires.
-
-- Wrote Cucumber style acceptance test specifications for platform components and automated their validation.
-
-- Wrote technical user documentation for DataBake application with Sphinx. 
 
 #### Jan 2015-Jan 2016: Web Developer, [Quantiki](https://www.quantiki.org)
 
@@ -97,21 +95,20 @@ Quantiki is the world's leading portal for everyone involved in Quantum Informat
 - Python
 - Haskell
 - Golang
-- TypeScript
 
 #### Tools
 
 - NixOS and Nixpkgs
-- Make, CMake and Bazel
-- PostgreSQL, MySQL and Redis
-- Git and GitLab
+- PostgreSQL and Redis
+- Git, GitLab and JIRA
 - Parser generators such as ANTLR4 and Yacc
 
 #### Professional Development
 
 - Habitual and driven self learner
-- Regularly attends several London based meetups including London Haskell, London NixOS User Group.
+- Regularly attends several meetups including London Haskell, London NixOS User Group.
 - Attends community events such as FOSDEM and ZuriHac as well as developer conferences such as PolyConf.
+- Recently spoke at NixCon on the subject of Database Extensions.
 - Active participant in the Basingstoke Tech meetup, at which I presented about building Slackbots.
 
 #### Interests
