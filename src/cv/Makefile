@@ -3,7 +3,7 @@ PREFIX?=.
 DOCS_DIR=$(PREFIX)/docs
 
 build:
-	pandoc -s -o cv.pdf cv.md
+	pandoc -s -o cv.pdf --pdf-engine=xelatex cv.md --verbose
 	pandoc -s -o cv.html cv.md
 	pandoc -s -o cv.docx cv.md
 
@@ -17,3 +17,4 @@ install:
 	cp cv.pdf $(DOCS_DIR)
 	cp cv.html $(DOCS_DIR)
 	cp cv.docx $(DOCS_DIR)
+	cp ./**/*.log $(PREFIX)

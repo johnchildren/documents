@@ -1,11 +1,30 @@
-{ nixpkgs ? import <nixpkgs> {} }:
+{ nixpkgs ? import ./nix/nixpkgs-pinned {} }:
+with nixpkgs;
 let
-  inherit (nixpkgs) pkgs;
-  stdenv = pkgs.stdenv;
-  texlive = pkgs.texlive.combine {
-    inherit (pkgs.texlive) scheme-small;
+  custom_texlive = texlive.combine {
+    inherit (texlive)
+    scheme-small
+    enumitem
+    geometry
+    fancyhdr
+    xcolor
+    ifxetex
+    xifthen
+    etoolbox
+    setspace
+    fontspec
+    unicode-math
+    fontawesome
+    sourcesanspro
+    tcolorbox
+    parskip
+    hyperref
+    environ
+    trimspaces
+    
+    ifmtarg;
   };
-  pandoc = pkgs.pandoc;
-in {
-  cv = import ./cv { inherit stdenv pandoc texlive; };
+in rec {
+  awesome-cv = callPackage ./nix/awesome-cv.nix { texlive = custom_texlive; };
+  cv = callPackage ./src/cv { texlive = custom_texlive; awesome-cv = awesome-cv; };
 }

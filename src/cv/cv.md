@@ -1,5 +1,5 @@
 ---
-documentclass: res
+documentclass: awesome-cv
 title: 'John Children'
 phone: +12 (0)3456 7891011
 email: john.a.children@gmail.com
