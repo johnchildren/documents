@@ -1,4 +1,4 @@
-{ stdenv, pandoc, texlive, awesome-cv, makeFontsConf, font-awesome_4, latinmodern-math, roboto, roboto-mono }:
+{ stdenv, pandoc, texlive, fontsConf }:
 
 stdenv.mkDerivation {
   name = "cv";
@@ -7,17 +7,9 @@ stdenv.mkDerivation {
   buildInputs = [
     texlive
     pandoc
-    awesome-cv
   ];
 
-  FONTCONFIG_FILE = makeFontsConf {
-    fontDirectories = [
-      font-awesome_4
-      latinmodern-math
-      roboto
-      roboto-mono
-    ];
-  };
-
   makeFlags = [ "PREFIX=$(out)" ];
+
+  FONTCONFIG_FILE = fontsConf;
 }

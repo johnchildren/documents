@@ -1,13 +1,14 @@
 ---
-documentclass: awesome-cv
-title: 'John Children'
+documentclass: okay-cv
+title: 'John Children CV'
+author: 'John Children'
+date: 03/02/19
+
 phone: +12 (0)3456 7891011
 email: john.a.children@gmail.com
-github: https://github.com/johnchildren
-linkedin: www.linkedin.com/in/johnchildren
-date: 25/03/18
+github: github.com/johnchildren
+linkedin: linkedin.com/in/johnchildren
 ...
-
 
 ### Personal summary
 
@@ -30,6 +31,8 @@ The InfoSum Platform allows users to connect and analyze silo-ed data in differe
 - Designed and wrote PostgreSQL and Redis extensions in C required by the platform.
 
 - Designed and implemented query language for the platform, including planning and execution.
+
+- Implemented PostgreSQL server protocol and select query transpiler from SQL to aforementioned query language in Rust.
 
 - Read and reviewed technical papers, discussed with colleagues and made recommendations.
 
@@ -83,37 +86,19 @@ Quantiki is the world's leading portal for everyone involved in Quantum Informat
 #### Skills
 
 - Design and implementation of DSLs, ASTs and Interpreters
-- Relation Databases and Query Languages
-- Implementation of Query planning, Optimisation and Execution
-- Services, Deployment and APIs
+- Understanding of query planning and execution. 
+- Research and implementation of relevant algorithms and data structures.
+- Authoring of relevant technical documentation.
 
-#### Languages
+#### Technologies
 
-- Nix
-- C
-- C++
-- Python
-- Haskell
-- Golang
+Proficient with many programming languages and tools including:
 
-#### Tools
-
-- NixOS and Nixpkgs
-- PostgreSQL and Redis
-- Git, GitLab and JIRA
-- Parser generators such as ANTLR4 and Yacc
-
-#### Professional Development
-
-- Habitual and driven self learner
-- Regularly attends several meetups including London Haskell, London NixOS User Group.
-- Attends community events such as FOSDEM and ZuriHac as well as developer conferences such as PolyConf.
-- Recently spoke at NixCon on the subject of Database Extensions.
-- Active participant in the Basingstoke Tech meetup, at which I presented about building Slackbots.
-
-#### Interests
-
-- Quantum Computing
-- Type Systems
-- Property based testing
-- Machine Learning
+| Programming Languages | Tools         |
+| --------------------- | ------------- |
+| Nix                   | NixOS/Nixpkgs |
+| C                     | PostgreSQL    |
+| Python                | Redis         |
+| Haskell               | Git           |
+| Rust                  | JIRA          |
+| Golang                | ANTLR4        |

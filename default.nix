@@ -4,27 +4,14 @@ let
   custom_texlive = texlive.combine {
     inherit (texlive)
     scheme-small
-    enumitem
-    geometry
-    fancyhdr
-    xcolor
-    ifxetex
-    xifthen
-    etoolbox
-    setspace
-    fontspec
-    unicode-math
-    fontawesome
-    sourcesanspro
-    tcolorbox
-    parskip
-    hyperref
-    environ
-    trimspaces
-    
-    ifmtarg;
+    ifetex;
   };
-in rec {
-  awesome-cv = callPackage ./nix/awesome-cv.nix { texlive = custom_texlive; };
-  cv = callPackage ./src/cv { texlive = custom_texlive; awesome-cv = awesome-cv; };
+  fontsConf = makeFontsConf {
+    fontconfig = pkgs.fontconfig_210;
+    fontDirectories = [];
+  };
+  cv = callPackage ./src/cv { texlive = custom_texlive; fontsConf = fontsConf; };
+in buildEnv {
+  name = "documents";
+  paths = [ cv ];
 }
