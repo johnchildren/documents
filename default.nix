@@ -1,11 +1,17 @@
-{ nixpkgs ? import <nixpkgs> {} }:
+{ nixpkgs ? import ./nix/nixpkgs-pinned {} }:
+with nixpkgs;
 let
-  inherit (nixpkgs) pkgs;
-  stdenv = pkgs.stdenv;
-  texlive = pkgs.texlive.combine {
-    inherit (pkgs.texlive) scheme-small;
+  custom_texlive = texlive.combine {
+    inherit (texlive)
+    scheme-small
+    ifetex;
   };
-  pandoc = pkgs.pandoc;
-in {
-  cv = import ./cv { inherit stdenv pandoc texlive; };
+  fontsConf = makeFontsConf {
+    fontconfig = pkgs.fontconfig_210;
+    fontDirectories = [];
+  };
+  cv = callPackage ./src/cv { texlive = custom_texlive; fontsConf = fontsConf; };
+in buildEnv {
+  name = "documents";
+  paths = [ cv ];
 }

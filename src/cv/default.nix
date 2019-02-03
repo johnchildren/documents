@@ -1,4 +1,4 @@
-{ stdenv, pandoc, texlive }:
+{ stdenv, pandoc, texlive, fontsConf }:
 
 stdenv.mkDerivation {
   name = "cv";
@@ -10,4 +10,6 @@ stdenv.mkDerivation {
   ];
 
   makeFlags = [ "PREFIX=$(out)" ];
+
+  FONTCONFIG_FILE = fontsConf;
 }

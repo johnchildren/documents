@@ -3,7 +3,7 @@ PREFIX?=.
 DOCS_DIR=$(PREFIX)/docs
 
 build:
-	pandoc -s -o cv.pdf cv.md
+	pandoc -s --template cv.template.tex --pdf-engine=xelatex -o cv.pdf cv.md
 	pandoc -s -o cv.html cv.md
 	pandoc -s -o cv.docx cv.md
 
