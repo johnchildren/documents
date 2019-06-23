@@ -10,13 +10,13 @@ github: github.com/johnchildren
 linkedin: linkedin.com/in/johnchildren
 ...
 
-### Personal summary
+## Personal summary
 
 Software Engineer with a strong academic background in the natural sciences. Experience of working in a dynamic and energetic start-up environment. Broad range of experience with a wide range of programming languages, techniques and paradigms; as well as modern tooling and infrastructure. A self motivated learner and improver with a focus and passion for software quality.
 
-### Employment
+## Employment
 
-#### Apr 2016-Present: Software Engineer, [InfoSum](https://www.infosum.com)
+### Apr 2016-Present: Software Engineer, [InfoSum](https://www.infosum.com)
 
 The InfoSum Platform allows users to connect and analyze silo-ed data in difference schemas without moving the data.
 
@@ -38,7 +38,7 @@ The InfoSum Platform allows users to connect and analyze silo-ed data in differe
 
 - Undertook technical interview and assessment of potential new hires.
 
-#### Jan 2015-Jan 2016: Web Developer, [Quantiki](https://www.quantiki.org)
+### Jan 2015-Jan 2016: Web Developer, [Quantiki](https://www.quantiki.org)
 
 Quantiki is the world's leading portal for everyone involved in Quantum Information Science.
 
@@ -52,7 +52,7 @@ Quantiki is the world's leading portal for everyone involved in Quantum Informat
 
 - Coordinated with remote team members while living abroad in Vancouver, BC.
 
-#### Summer 2012: Summer Research Student, University of York
+### Summer 2012: Summer Research Student, University of York
 
 - Built a database of example results from simulations of solid state materials that were run on the University computing cluster for a range of bonding types.
 
@@ -60,37 +60,42 @@ Quantiki is the world's leading portal for everyone involved in Quantum Informat
 
 - Designed website to display data from calculations as benchmarks with comparison graphs.
 
+---
 
-### Education
+## Education
 
-#### M.Sc.    Quantum Technologies (Merit), University of Leeds, Leeds UK
+### M.Sc.    Quantum Technologies (Merit), University of Leeds, Leeds UK
 
 - Studied Quantum Information Theory, Quantum Optics, Advanced Quantum Computing.
 
 - Dissertation on simulation of Error Correction in One Way Quantum Computing.
 
-#### M.Phys.  Physics with Philosophy (2:1), University of York, York UK
+### M.Phys.  Physics with Philosophy (2:1), University of York, York UK
 
 - Studied Electromagnetic Theory, Quantum Computing and High Performance Computing
 
 - Dissertation on simulation of de-coherence in silicon based Qubits
 
-#### A Levels
+### A Levels
 
 - A2 Maths, Further Maths and Physics (AAB)
 
 - AS English Literature and History (AB)
 
-### Technical
+---
 
-#### Skills
+## Technical
 
-- Design and implementation of DSLs, ASTs and Interpreters
-- Understanding of query planning and execution. 
-- Research and implementation of relevant algorithms and data structures.
-- Authoring of relevant technical documentation.
+### Skills
 
-#### Technologies
+- Ability to find and digest relevant technical information quickly from a variety of sources.
+- Understanding of query planning and execution in a distributed platform including impact on language design.
+- Research and implementation of relevant algorithms and data structures for specific business problems.
+- Use of and debugging of build systems for a wide variety of ecosystems.
+- Familiarity with a range of testing techniques and paradigms (BDD, property based etc)
+- Clear communication of technical concepts and authoring of relevant technical documentation.
+
+### Technologies
 
 Proficient with many programming languages and tools including:
 
@@ -102,3 +107,19 @@ Proficient with many programming languages and tools including:
 | Haskell               | Git           |
 | Rust                  | JIRA          |
 | Golang                | ANTLR4        |
+
+---
+
+## Interests
+
+### Professional
+
+- Hobbyist programmer, working on a range of projects for education and amusement.
+- Interest in dependent types from The Little Typer study group, working on implementation of pie language.
+- Keen attendee of conferences and opportunities for self-improvement, was speaker at NixCon 2018.
+
+### Personal
+
+- Fan and player of board games, particularly social deduction/secret identity games.
+- Casual learner of Japanese through books, apps and video calls with native speakers and fellow learners.
+- Collector and reader of fiction books, primarily sci-fi but also more "serious" genres.

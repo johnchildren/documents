@@ -51,10 +51,13 @@ not set. Please fix this.}
 \renewcommand*{\maketitle}{%
     \begin{flushright}
     \noindent  \LARGE{\textbf{\@author}} \\
-    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-    \vspace{-2ex}
     \normalsize
     \end{flushright}
+
+    \begin{center}
+    \line(1,0){450}
+    \end{center}
+    \vspace{-2ex}
 
     \begin{center}
     \begin{tabular}{l l}
@@ -64,4 +67,6 @@ not set. Please fix this.}
          LinkedIn  & \hspace{1in} \href{https://www.\@linkedin}{\@linkedin} \\
     \end{tabular}
     \end{center}
+
+    \vspace{-1ex}
 }
