@@ -20,17 +20,17 @@ Software Engineer with a strong academic background in the natural sciences. Exp
 
 The InfoSum Platform allows users to connect and analyze silo-ed data in difference schemas without moving the data.
 
-- Early employee focused primarily on the platform back-end systems.
-
 - Designed and wrote the backend and documentation for the [DataBake](https://www.databake.io) web application, InfoSum's first product.
-
-- Selected key technologies to resolve specific technical challenges required by the business.
 
 - Designed and wrote critical components of several micro-services in the platform using technologies such as Docker and gRPC.
 
 - Designed and wrote PostgreSQL and Redis extensions in C required by the platform.
 
-- Designed and implemented query language for the platform, including planning and execution.
+- Built Docker images with Nix for Redis databases to be deployed with different configurations.
+
+- Automated development environments and build systems with Nix for C, Rust, protobuf and ANTLR projects.
+
+- Contributed to design and implementation of query language for the platform, including planning and execution.
 
 - Implemented PostgreSQL server protocol and select query transpiler from SQL to aforementioned query language in Rust.
 
